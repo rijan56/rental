@@ -1,0 +1,3 @@
+
+PUT http://localhost:8000/v1/agreements/3?status=ACCEPTED
+Authorization: Token 7b494caf019bcf66050930011b9b82b812cf9d74

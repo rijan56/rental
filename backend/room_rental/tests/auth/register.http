@@ -1,0 +1,14 @@
+
+
+POST http://127.0.0.1:8000/v1/auth/sign-up HTTP/2.0
+Content-Type: application/json
+
+{
+    "username": "mialaip1anos",
+    "password": "ap",
+    "email":"aashutosh.pudasaini@deerwalk.edu.np",
+    "phone":"1231231234",
+    "type":"tenant",
+    "first_name":"Aashutosh",
+    "last_name":"Pudasaini"
+}

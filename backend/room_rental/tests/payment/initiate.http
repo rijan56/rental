@@ -1,0 +1,10 @@
+
+
+POST http://localhost:8000/v1/payment/
+Authorization: Token 8ece59348dfb888865cb83ff4813a668cfb2f951
+Content-Type: application/json
+
+{
+    "amount": "300",
+    "agreement_id": 3
+}

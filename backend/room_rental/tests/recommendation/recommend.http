@@ -1,0 +1,17 @@
+
+
+
+POST http://localhost:8000/v1/recommendation/predict HTTP/2.0
+Authorization: Token 7b494caf019bcf66050930011b9b82b812cf9d74
+Content-Type: application/json
+
+{
+    "land_area": 20.0,
+    "bedrooms": 20.0,
+    "bathrooms": 20.0,
+    "floors": 20.0,
+    "city": "Kathmandu",
+    "district": "Kathmandu",
+    "car_parking": 2,
+    "staying": 2
+}

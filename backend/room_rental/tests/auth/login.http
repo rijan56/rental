@@ -1,0 +1,17 @@
+
+
+POST http://127.0.0.1:8000/v1/auth/sign-in HTTP/2.0
+Content-Type: application/json
+
+# {
+#     "username": "ll",
+#     "password": "ap",
+#     "type":"landlord"
+# }
+
+# landlord
+
+{
+    "username": "t",
+    "password": "ap"
+}

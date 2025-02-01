@@ -1,0 +1,5 @@
+
+
+DELETE http://127.0.0.1:8000/v1/auth/sign-out HTTP/2.0
+Content-Type: application/json
+Authorization: Token 0f8cfbc3d94b8534c32453c6d7b48ab4f8ec5098

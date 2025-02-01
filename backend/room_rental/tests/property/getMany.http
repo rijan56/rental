@@ -1,0 +1,4 @@
+
+
+GET http://localhost:8000/v1/property/?as=landlord
+Authorization: Token 7b494caf019bcf66050930011b9b82b812cf9d74

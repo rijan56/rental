@@ -1,0 +1,5 @@
+
+
+GET http://localhost:8000/v1/agreements/1?as=landlord
+Authorization: Token 562629537dd36173317f726727f5420bd9f1c492 
+Content-Type: application/json

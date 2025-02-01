@@ -1,0 +1,68 @@
+POST http://localhost:8000/v1/property/
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+Authorization: Token 2652073029776b3495521150a228de5b191f5bb7
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="owner"
+
+1
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="title"
+
+Beautiful Villa
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="description"
+
+A luxurious villa with a great view.
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="type"
+
+Villa
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="address"
+
+123 Luxury Lane
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="location"
+
+{"lat": 34.0522, "lng": -118.2437}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="price"
+
+500000
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="thumbnail"; filename="thumbnail.jpg"
+Content-Type: image/jpeg
+
+< ./path/to/thumbnail.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="area"
+
+2500
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="bedrooms_count"
+
+4
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="bathrooms_count"
+
+3
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="can_accomodate"
+
+6
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="facts"
+
+{"year_built": 2015, "parking_spaces": 2}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="uploaded_images"; filename="image1.jpg"
+Content-Type: image/jpeg
+
+< ./images/image1.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="uploaded_images"; filename="image2.jpg"
+Content-Type: image/jpeg
+
+< ./images/image2.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--

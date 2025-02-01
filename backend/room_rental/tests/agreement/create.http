@@ -1,0 +1,13 @@
+
+
+POST http://localhost:8000/v1/agreements/
+Authorization: Token 5ca8730e64fbfe7b012145afd41f5412f7f48378 
+Content-Type: application/json
+
+{
+    "start_date": "2025-03-22",
+    "end_date": "2025-03-27",
+    "message": "I'll take good care of your property.",
+    "amount": 2200,
+    "property_id":3
+}

@@ -1,0 +1,3 @@
+
+GET http://localhost:8000/v1/payment/?as=tenant
+Authorization: Token 8ece59348dfb888865cb83ff4813a668cfb2f951

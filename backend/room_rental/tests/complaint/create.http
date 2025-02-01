@@ -1,0 +1,12 @@
+
+
+
+POST http://localhost:8000/v1/complaints/
+Authorization: Token 7b494caf019bcf66050930011b9b82b812cf9d74
+Content-Type: application/json
+
+{
+    "title": "Water was shit",
+    "description": "During our stay, we noted that the water system of your house was pretty shit.",
+    "agreement_id": 3
+}

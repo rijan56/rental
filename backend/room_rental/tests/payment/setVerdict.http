@@ -1,0 +1,6 @@
+
+
+
+
+PUT http://localhost:8000/v1/payment/d918cba2-9e36-4194-a1bb-3d64daf947ea?status=FAILED
+Authorization: Token 8ece59348dfb888865cb83ff4813a668cfb2f951
